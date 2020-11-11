@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Praktikum5</string>
+    <string name="hint_input_prodi">Nama Prodi</string>
+    <string name="btn_prodi">Bawa Prodi ke Activity Lain</string>
+    <string name="btn_call_browser">Masuk Ke Halaman Web ITT</string>
+    <string name="btn_call_camera">Masuk ke Kamera</string>
+    <string name="input_phone_number">Masukan Nomor HP</string>
+    <string name="btn_call_phone">Panggil Nomor Di atas</string>
+    <string name="btn_fragment">Buka Fragment</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+</resources>
