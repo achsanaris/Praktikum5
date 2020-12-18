@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">BroadcastReciver(praktikum 8)</string>
+    <string name="check_sms_permission">Check SMS Permission</string>
 </resources>
