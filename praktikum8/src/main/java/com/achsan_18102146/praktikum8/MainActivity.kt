@@ -12,11 +12,12 @@ class MainActivity : AppCompatActivity() {
     companion object {
         private const val SMS_REQUEST_CODE = 101
     }
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        btn_permission.setOnClickListener{
+        btn_permission.setOnClickListener {
             if (ActivityCompat.checkSelfPermission(this, Manifest.permission.RECEIVE_SMS) !=
                     PackageManager.PERMISSION_GRANTED) {
                 ActivityCompat.requestPermissions(this, arrayOf(Manifest.permission.RECEIVE_SMS),
@@ -29,9 +30,12 @@ class MainActivity : AppCompatActivity() {
     IntArray) {
         if (requestCode == SMS_REQUEST_CODE) {
             when {
-                grantResults[0] == PackageManager.PERMISSION_GRANTED -> Toast.makeText(this, "Sms reciver"
-                        "permission diterima", Toast.LENGTH_SHORT).show()
-                        else -> Toast.makeText(this, "Sms receiver permission ditolak", Toast.LENGTH_SHORT).show()
+                grantResults[0] == PackageManager.PERMISSION_GRANTED -> Toast.makeText(this, "Sms reciver permission diterima",
+                        Toast.LENGTH_SHORT).show()
+
+                else -> Toast.makeText(this, "Sms receiver permission ditolak", Toast.LENGTH_SHORT).show()
             }
         }
+    }
+
 }
