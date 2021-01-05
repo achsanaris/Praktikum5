@@ -1,3 +1,6 @@
+include ':prak9'
+include ':praktikum9'
+include ':Praktikum9'
 include ':praktikum8'
 rootProject.name='Praktikum5'
 include ':app'
