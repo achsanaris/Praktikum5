@@ -3,7 +3,7 @@ package com.achsan_18102146.prak9.data
 import android.os.Parcelable
 import kotlinx.android.parcel.Parcelize
 
-class SettingModel {
+
 
     @Parcelize
     data class SettingModel (
@@ -14,4 +14,3 @@ class SettingModel {
         var isDarkTheme: Boolean = false
     ): Parcelable
 
-}
