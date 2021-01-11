@@ -3,6 +3,7 @@ package com.achsan_18102146.prak9.preferences
 import android.content.Context
 import com.achsan_18102146.prak9.data.SettingModel
 
+
 class SettingPreference {
 
     internal class SettingPreference(context: Context) {
